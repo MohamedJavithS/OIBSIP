@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="heading-js"><h1 class="h1-js"></h1></div>
+<div class="flex-container">
+  <div class="input-div div_">
+    <input type="text" class="input margin title-js" placeholder="Title" required>
+    <input type="datetime-local" class="input margin date-js" required>
+    <textarea cols="30" rows="10" class=" margin desc-js" placeholder="Description" required></textarea>
+    <button class="input margin save-js">Save</button>
+    <div class="ListBtnDiv">
+      <button class="complList-js complList">Complete List</button>
+      <button class="TodoList-js TodoList">Todo List</button>
+    </div>
+  </div>  
+  <div class="output-div div_">
+    <div class="op-title-js op-title">
+      <div>Title</div>
+      <div>Date&Time</div>
+      <div>Description</div>
+      <div>Action</div>
+    </div>
+    <div class="op-body-js"></div>
+    <div class="clearDiv"><button class="CompClear-btn">Clear</button></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

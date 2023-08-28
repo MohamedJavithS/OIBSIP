@@ -1,0 +1,243 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #282D3C;
+}
+
+.input-div{
+  height: 360px;
+  width: 500px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  border-color: antiquewhite;
+  border: none;
+  background-color:#798EA4;
+  flex: 1;
+}
+
+.input{
+  display: block;
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+}
+
+.margin{
+  margin-bottom: 25px;
+  border-color: burlywood;
+  background-color:  #EDF1FF;
+  border: none;
+  border-radius: 5px;
+}
+
+.title-js{
+  width: 496px;
+}
+
+.date-js{
+  color:grey;
+  font-family: 'Times New Roman', Times, serif;
+}
+.desc-js{
+  width: 496px;
+}
+
+.save-js{
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: #2E4A62;
+  cursor: pointer;
+}
+
+.save-js:hover{
+  transform: scale(0.9);
+}
+
+.margin:hover{
+  transform: scale(1.01);
+}
+
+::placeholder{
+  color: grey;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*
+.output-div{
+  height: 360px;
+  width: 800px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding: 15px;
+  border-radius: 5px;
+  border-color: antiquewhite;
+  background-color:#798EA4;
+  flex: 2;
+}*/
+
+.flex-container{
+  display: flex;
+}
+
+/*.div_{
+  flex: 1;
+  height: 360px;
+  background-color:#798EA4;
+}*/
+
+.div_:first-child{
+  margin-right: 30px;
+}
+
+/*
+.op-title-js{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #2E4A62;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
+  border-radius: 5px;
+  margin-top: -13px;
+  margin-left: -13px;
+  margin-right: -13px; 
+}
+*/
+
+.op-title-js, .op-body-js{
+  display: grid;
+  grid-template-columns: 170px 200px 330px 80px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  color: #798EA4;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.op-title-js{
+  color:  #2E4A62;
+  background-color:#798EA4;
+  border-top-left-radius: 5px;
+  border-top-right-radius:5px;
+  border-bottom: 1px solid snow;
+}
+.op-body-js{
+  color: white;
+  padding: 5px;
+  background-color:#798EA4;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius:5px;
+}
+
+.del-btn{
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  padding: 5px 31px 5px 10px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 2px;
+  border-radius: 5px;
+}
+
+.compl-btn, .complList{
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 2px;
+  border-radius: 5px;
+}
+
+
+
+.del-btn:hover, .compl-btn:hover{
+  transform: scale(0.9);
+}
+
+
+.TodoList{
+  background-color: darkcyan;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 2px;
+  border-radius: 5px;
+}
+
+
+.ListBtnDiv{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.complList:hover, .TodoList:hover{
+  transform: scale(1.1);
+}
+
+.completed-js{
+  color: greenyellow;
+  font-size: 15px;
+}
+
+.CompClear-btn{
+  display: none;
+}
+
+.dispCompClearBtn{
+  display: block;
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.clearDiv{
+  padding: 5px 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.heading-js{
+   margin-left: 30%;
+}
+
+.h1-js{
+  color: dimgray;
+}
+
+.hideClearbtn{
+  display: none;
+}
