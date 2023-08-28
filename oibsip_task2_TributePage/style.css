@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  line-height: 1.5em;
+  font-family: 'Times New Roman', Times, serif;
+  cursor:default;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.apj-img-div{
+  display: flex;
+  justify-content: center;
+}
+
+.apj-img{
+  height: 300px;
+}
+
+.quotes-div{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.quotes{
+  width: 458px;
+  padding: 7px;
+}
+
+.quotes:hover{
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.para1-mapImg-div{
+  display: flex;
+  margin-left: 20%;
+  margin-top: 2%;
+}
+
+.para1-div{
+  flex: 1;
+  margin-right: 6%;
+}
+
+.para1{
+  width: 458px;
+  font-size: 19px;
+  padding: 7px;
+}
+
+img{
+ border-radius: 10px;
+}
+
+img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.mapImg-div{
+  flex: 2;
+  margin-top: 1%;
+}
+
+.mapImg{
+  height: 230px;
+  width: 458px;
+}
+
+.subTopic-div{
+  margin-top: 4%;
+}
+
+details{
+ margin-bottom: 2%;
+}
+
+.summary{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 6px;
+  margin-left: 30%;
+  cursor: pointer;
+}
+
+.summary:hover{
+   background-color: cornsilk;
+   color: black;
+   border-radius: 10px;
+}
+
+.paragraph{
+  width: 95%;
+  margin-left: 45px;
+  font-size: 19px;
+  padding: 5px;
+}
+
+.paragraph:hover, .para1:hover{
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.dream-img{
+  height: 200px;
+  margin-right: -100px;
+  margin-left: 2%;
+}
+
+.detail-flex-div{
+  display: flex;
+  width: 90%;
+}
+
+.vison-img-div, .linethrough-div, .wakeup-img-div{
+ display: flex;
+ justify-content: center;
+}
+
+.vison-img{
+  height: 200px;
+}
+.linethrough-div{
+  margin-top: 1.5%;
+}
+
+s{
+  padding: 5px;
+}
+
+s:hover{
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+.wakeup-img{
+  height: 300px;
+  border-radius: 20px;
+}
