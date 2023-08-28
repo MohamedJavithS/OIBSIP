@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+      <div class="result row"></div>
+      <p class="row">
+        <button class="btn-num-js" onclick="update(' ) ');">(</button>
+        <button class="btn-num-js" onclick="update(' ( ');">)</button>
+        <button class="btn-ans-js">ans</button>
+        <button class="btn-del-js">del</button>
+        <button class="btn-clear-js">clear</button>
+      </p>
+
+      <p class="row">
+        <button class="btn-num-js" onclick="update('7');">7</button>
+        <button class="btn-num-js" onclick="update('8');">8</button>
+        <button class="btn-num-js" onclick="update('9');">9</button>
+        <button class="btn-op-js" onclick="update(' % ');" title="Modulo">%</button>
+        <button class="btn-op-js" onclick="update('3.14159265359');">π</button>
+      </p>
+
+      <p class="row">
+        <button class="btn-num-js" onclick="update('4');">4</button>
+        <button class="btn-num-js" onclick="update('5');">5</button>
+        <button class="btn-num-js" onclick="update('6');">6</button>
+        <button class="btn-op-js" onclick="update(' x ');">x</button>
+        <button class="btn-op-js" onclick="update(' / ');" title="Divide">/</button>
+      </p>
+
+      <p class="row">
+        <button class="btn-num-js" onclick="update('1');">1</button>
+        <button class="btn-num-js" onclick="update('2');">2</button>
+        <button class="btn-num-js" onclick="update('3');">3</button>
+        <button class="btn-op-js" onclick="update(' + ');">+</button>
+        <button class="btn-op-js" onclick="update(' - ');">-</button>
+      </p>
+
+      <p class="row">
+        <button class="btn-num-js" onclick="update('.');">.</button>
+        <button class="btn-num-js" onclick="update('0');">0</button>
+        <button class="btn-op-js" onclick="update(' ^ ');">^</button>
+        <button class="btn-enter-js enter">ENTER</button>
+      </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
