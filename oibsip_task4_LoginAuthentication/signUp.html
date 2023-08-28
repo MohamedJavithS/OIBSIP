@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NVIDIA-signup</title>
+  <link rel="stylesheet" href="styles/signUpStyle.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sub-container">
+      <h1 class="heading">NVIDIA</h1>
+      <h3 class="heading">Create Account</h3>
+      <div class="input-div">
+        <fieldset class="field-input">
+          <legend>Enter your name</legend>
+          <input type="text" class="input input-js name-js" onkeyup="allowOnlyAlphabet(this);" maxlength="25">
+        </fieldset>
+      </div>
+      <div class="input-div">
+        <fieldset class="field-input name">
+          <legend>Enter your Email</legend>
+          <input type="text" class="input input-js email-js" pattern=".+@globex\.com">
+        </fieldset>
+      </div>
+      <div class="input-div">
+        <fieldset class="field-input phone">
+          <legend>Enter your Phone number</legend>
+          <input type="text" class="input input-js phone-js" maxlength="10" onkeyup="allowOnlyNumeric(this);">
+        </fieldset>
+      </div>
+      <div class="input-div">
+        <fieldset class="field-input dob">
+          <legend>Select your DOB</legend>
+          <input type="date" class="input input-js dob dob-js" required>
+        </fieldset>
+      </div>
+      <div class="input-div">
+        <fieldset class="field-input password">
+          <legend>Enter your Password</legend>
+          <input type="password" class="input password-js" minlength="6">
+        </fieldset>
+      </div>
+      <div class="showPassword-div sp-margin">
+        <input type="checkbox" name="showPassword" class="showPassword"><label for="showPassword">Show Password</label>
+      </div>
+      <div class="input-div">
+        <fieldset class="field-input confirmPassword">
+          <legend>Enter your Confirm Password</legend>
+          <input type="password" class="input confirmPassword-js" minlength="6">
+        </fieldset>
+      </div>
+      <div class="showPassword-div">
+        <input type="checkbox" name="showPassword" class="confirmShowPassword"><label for="showPassword">Show Password</label>
+      </div>
+      <div class="msg-js"></div>
+      <div class="btn-div">
+        <a href="signIn.html">
+          <button class="c-btn">← Go back</button>
+        </a>
+        <button class="s-btn">Sign up</button>
+      </div>
+
+    </div>
+  </div>
+  <script src="scripts/signUpScript.js"></script>
+</body>
+</html>

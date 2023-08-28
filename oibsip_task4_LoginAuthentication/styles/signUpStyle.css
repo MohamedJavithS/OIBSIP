@@ -1,0 +1,201 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  background-repeat: round;
+  height: 100vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+  background-color: white;
+  height: 667px;
+  width: 600px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container{
+  width: 85%;
+  height: 87%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border: none;
+  border-radius: 10px;
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.input{
+  width: 100%;
+  height: 23px;
+  border: none;
+}
+
+.input:focus{
+  outline: none;
+}
+
+.field-input{
+  width: 80%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+.showPassword-div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 6.5%;
+  margin-top: -4%;
+}
+
+.showPassword, .confirmShowPassword{
+  margin-top: 20px;
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+.sp-margin{
+  margin-bottom: 10px;
+}
+label{
+  margin-top: 17px;
+  color: cornflowerblue;
+}
+
+legend{
+  color: gray;
+}
+
+.btn-div{
+  margin-top: 4%;
+  width: 100%;
+  height: 100%;
+}
+
+.c-btn{
+  margin-left: 6.5%;
+  border: none;
+  background-color: transparent;
+  color: rosybrown;
+  cursor: pointer;
+  padding: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.c-btn:hover{
+  background-color: dodgerblue;
+  color: white;
+  transform: scale(1.1);
+}
+.s-btn{
+ float: right;
+ margin-right: 7.5%;
+ cursor: pointer;
+ padding: 5px 22px;
+ border: none;
+ font-size: 17px;
+ border-radius: 5px;
+ font-weight: bold;
+ background-color: grey ;
+ box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.s-btn:hover{
+  background-color: green;
+  color: white;
+  transform: scale(1.1);
+}
+
+
+.msg-js{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  margin-top: -2%;
+  visibility: hidden;
+}
+
+
+.errorMsg-js{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  margin-top: 5px;
+  color: red;
+  visibility: visible;
+}
+
+.successMsg-js{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  margin-top: 5px;
+  color: green;
+  visibility: visible;
+}
+
+@keyframes shake {
+  0% {transform: translateX(0);}
+  10%, 90% {transform: translateX(-5px);}
+  20%, 80% {transform: translateX(5px);}
+  30%, 50%, 70% {transform: translateX(-5px);}
+  40%, 60% {transform: translateX(5px);}
+  100% {transform: translateX(0);}
+}
+
+.FieldErrorMsg-js{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  color: red;
+  animation: shake 1.2s infinite;
+  background-color: transparent;
+}
+
+.FieldErrorMsg-js:focus{
+  cursor: not-allowed;
+}
+
+/*
+.PhoneErrorMsgInvisible-js{
+  display: none;
+}*/
